@@ -8,7 +8,7 @@
                     <div>
                         <h2 class="title-font text-sm tracking-widest text-gray-500">{{ $product->category->title }}</h2>
                         <h1 class="title-font mb-1 text-3xl font-medium text-gray-900">{{ $product->title }}</h1>
-                        <p class="my-6 leading-relaxed">{!! Str:: markdown($product->body) !!}</p>
+                        <p class="my-6 leading-relaxed">{!! Str::markdown($product->body) !!}</p>
                     </div>
                     <div class="flex">
                         <span class="title-font text-2xl font-medium text-gray-900">Rp. {{ $product->price }}</span>
