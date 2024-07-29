@@ -7,6 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fresh Salad Gresik</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+    </style>
+
+    @filamentStyles
     @vite('resources/css/app.css')
 </head>
 
@@ -272,6 +279,8 @@
         Dinas Komunikasi dan Informatika Kabupaten Gresik © 2023. All Rights Reserved
     </div>
     {{-- footer --}}
+    @filamentScripts
+    @vite('resources/js/app.js')
 </body>
 
 </html>
